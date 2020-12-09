@@ -1,0 +1,23 @@
+form {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+h1 {
+  color: blueviolet;
+}
+body {
+  font-family: "Xanh Mono", monospace;
+  background-color: #a0c1b8;
+}
+.card {
+  margin: 20px 20px;
+}
+button {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  box-shadow: 30px -10px blueviolet;
+  color: black;
+  background: #a0c1b8;
+}
