@@ -20,8 +20,13 @@
       <div class="card-body">
         <h1>Weather forecast</h1>
         <img src="img/weather.svg" alt="Weather" width="150" />
-        <h2 id="city">Minsk</h2>
-        <h3 id="date">Sunday 20:00</h3>
+        <div class="overview">
+          <h1 id="city"></h1>
+          <ul>
+            <li>Last updated: <span id="date"></span></li>
+            <li id="description"></li>
+          </ul>
+        </div>
         <div class="row">
           <div class="col-6">
             <div class="clearfix weather-temperature">
